@@ -1,0 +1,44 @@
+* {
+    border: 1px red solid;
+}
+
+body {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.header, .content-1 {
+    padding-left: 220px;
+    padding-right: 120px;
+}
+
+.header-logo {
+    font-size: 27px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.header {
+    height: 70px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    padding: 8px;
+}
+
+.right-links a, ul {
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+}
