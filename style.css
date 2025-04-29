@@ -1,5 +1,6 @@
+
 * {
-    border: red solid 1px;
+    border: 1px solid red;
 }
 
 body {
@@ -163,7 +164,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 48px;
+    padding: 120px;
 }
 
 .content-3 h1 {
@@ -179,4 +180,64 @@ button {
     font-size: 24px;
     display: flex;
     justify-content: flex-end;
+}
+
+.content-4 {
+    background-color: #F9FAF8;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 100px;
+    gap: 120px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.left-side-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+.left-side-4 h1 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.left-side-4 p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.right-side-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #F9FAF8 solid 2px;
+    border-radius: 10px;
+    margin: 0px;
+    font-size: 16px;
+
 }
