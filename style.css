@@ -1,6 +1,5 @@
-
 * {
-    border: 1px red solid;
+    border: red solid 1px;
 }
 
 body {
@@ -55,8 +54,8 @@ body {
     background-color: #1F2937;
     color: white;
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     gap: 48px;
 }
 
@@ -108,4 +107,52 @@ button {
     padding: 8px 32px;
     border-radius: 8px;
     
+}
+
+.content-2 {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    gap: 48px;
+}
+
+.content-2 h1 {
+    color: #1F2937;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.elements {
+    display: flex;
+    gap: 50px;
+}
+
+.element img {
+    height: 175px;
+    width: 175px;
+    border: #3882f6 solid 4px;
+    border-radius: 10%;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subtext {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    width: 160px;
+    justify-content: center;
+    text-align: center;
 }
